@@ -1,0 +1,7 @@
+@media screen and (max-width: 1200px){
+
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 23px;
+    }
+}
