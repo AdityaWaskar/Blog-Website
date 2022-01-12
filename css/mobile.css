@@ -93,7 +93,32 @@
     .year-box div {
         margin: 1px -3px;
     }
-}
+
+    /* for contact page  */
+    .contact-content div h1{
+        font-size: 1.6rem;
+    }
+    
+    .form-box input, textarea {
+        width: 60vw;
+        padding: 3px 6px;
+        margin: 7px 0;
+        font-size: 0.9rem;
+    }
+
+    .contact-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer {
+        height: 29px;
+        font-size: 0.6rem;
+        flex-direction: row;
+    }
 
 @media screen and (max-width: 368px){
     .content-left{
@@ -129,4 +154,18 @@
     .nav-left ul li a {
         font-size: 13px;
     }
+
+    /* for contact page  */
+    .contact-content div h1{
+        font-size: 1.1rem;
+    }
+
+    .form-box input, textarea {
+        padding: 2px 6px;
+        margin: 7px 0;
+        font-size: 0.8rem;
+    }
 }
+
+
+
